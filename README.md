@@ -11,4 +11,4 @@ This game is a car race game, the player number can be choose 1-4 and each playe
 
 Most of the source is based on instructor Michael Winter(mwinter@brocku.ca)
 
-<div><img src="https://github.com/Kasim-An/cosc-3p91/sample1.jpg"></div>
+<div><img src="https://github.com/Kasim-An/cosc-3p91/blob/master/sample1.jpg"></div>
