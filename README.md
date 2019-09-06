@@ -5,3 +5,6 @@ Advanced object-oriented programming techniques such as graphical user interface
 
 By using interface, design patterns, threads, reading XML and GUI to design a game board, final version adding for server connection. 
 Design principle will be as much as abstraction, interface and inheritance.
+
+It's already packaged in netbeans project, assignment4server is the last version
+This game is a car race game, the player number can be choose 1-4 and each player has 7 cards to control their car, if the car hits or drop off the board, it will respone.
