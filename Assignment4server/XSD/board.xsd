@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="robot.xsd"/>
+  <xs:include schemaLocation="factory.xsd"/>
+  <xs:element name="board">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="robots"/>
+		<xs:element ref="factory"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="robots">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="robot" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="number" use="required" type="xs:nonNegativeInteger"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

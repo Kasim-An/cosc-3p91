@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="back.xsd"/>
+  <xs:include schemaLocation="halfturn.xsd"/>
+  <xs:include schemaLocation="move.xsd"/>
+  <xs:include schemaLocation="turn.xsd"/>
+  <xs:element name="cards">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="move"/>
+        <xs:element ref="turn"/>
+        <xs:element ref="halfturn"/>
+        <xs:element ref="back"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="direction.xsd"/>
+  <xs:include schemaLocation="phasenumber.xsd"/>
+  <xs:element name="pusher">
+    <xs:complexType>
+      <xs:attribute name="direction" use="required" type="direction"/>
+      <xs:attribute name="phase1" use="required" type="phasenumber"/>
+      <xs:attribute name="phase2" use="required" type="phasenumber"/>
+      <xs:attribute name="phase3" use="optional" type="phasenumber"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

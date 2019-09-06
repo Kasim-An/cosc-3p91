@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="belt.xsd"/>
+  <xs:include schemaLocation="crusher.xsd"/>
+  <xs:include schemaLocation="floor.xsd"/>
+  <xs:include schemaLocation="gear.xsd"/>
+  <xs:include schemaLocation="pit.xsd"/>
+  <xs:include schemaLocation="goal.xsd"/>
+  <xs:include schemaLocation="pusher.xsd"/>
+  <xs:include schemaLocation="walls.xsd"/>
+  <xs:element name="factory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="location"/>
+      </xs:sequence>
+      <xs:attribute name="xSize" use="required" type="xs:nonNegativeInteger"/>
+      <xs:attribute name="ySize" use="required" type="xs:nonNegativeInteger"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="location">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="1" maxOccurs="1">
+        	<xs:element ref="belt"/>
+			<xs:element ref="floor"/>
+			<xs:element ref="gear"/>
+			<xs:element ref="pit"/>
+			<xs:element ref="goal"/>
+		</xs:choice>
+		<xs:choice minOccurs="0" maxOccurs="1">
+		    <xs:element ref="crusher"/>
+			<xs:element ref="pusher"/>
+		</xs:choice>
+		<xs:element ref="walls" minOccurs="0" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

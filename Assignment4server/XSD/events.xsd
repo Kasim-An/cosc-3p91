@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="bumpEvent.xsd"/>
+  <xs:include schemaLocation="halfturnEvent.xsd"/>
+  <xs:include schemaLocation="moveEvent.xsd"/>
+  <xs:include schemaLocation="turnEvent.xsd"/>
+  <xs:include schemaLocation="victoryEvent.xsd"/>
+  <xs:include schemaLocation="destroyedEvent.xsd"/>
+  <xs:element name="events">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="bump"/>
+        <xs:element ref="halfturn"/>
+        <xs:element ref="move"/>
+        <xs:element ref="turn"/>
+        <xs:element ref="victory"/>
+	<xs:element ref="destroyed"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

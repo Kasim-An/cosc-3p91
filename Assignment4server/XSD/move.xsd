@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="priorityL4.xsd"/>
+  <xs:element name="move">
+    <xs:complexType>
+      <xs:attribute name="priority" use="required" type="priorityL4"/>
+      <xs:attribute name="steps" use="required" type="steps"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="steps">
+      <xs:restriction base="xs:integer">
+          <xs:minInclusive value="1"/>
+          <xs:maxInclusive value="3"/>
+      </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

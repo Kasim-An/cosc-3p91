@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="phasenumber.xsd"/>
+  <xs:element name="crusher">
+    <xs:complexType>
+      <xs:attribute name="phase1" use="required" type="phasenumber">
+      </xs:attribute>
+      <xs:attribute name="phase2" use="optional" type="phasenumber"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

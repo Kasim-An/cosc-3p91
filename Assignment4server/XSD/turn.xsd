@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="priorityL1.xsd"/>
+  <xs:element name="turn">
+    <xs:complexType>
+      <xs:attribute name="clockwise" use="required" type="xs:boolean"/>
+      <xs:attribute name="priority" use="required" type="priorityL1"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

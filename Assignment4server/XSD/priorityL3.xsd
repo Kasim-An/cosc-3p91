@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="priorityL3">
+    <xs:restriction base="xs:integer">
+        <xs:minExclusive value="42"/>
+        <xs:maxInclusive value="48"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
