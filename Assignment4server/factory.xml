@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<factory xSize="9" ySize="8">
+
+<location>
+<pit/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<pit/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<pit/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<pit/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<pit/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<floor/>
+<walls north="false" east="false" south="true" west="false"/>
+</location>
+
+<location>
+<belt direction="South"/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<belt direction="North"/>
+</location>
+
+<location>
+<floor/>
+<walls north="false" east="false" south="true" west="false"/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<floor/>
+<walls north="false" east="false" south="true" west="false"/>
+</location>
+
+<location>
+<gear clockwise="true"/>
+</location>
+
+<location>
+<floor/>
+<walls north="false" east="false" south="false" west="true"/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<gear clockwise="false"/>
+</location>
+
+<location>
+<belt direction="East"/>
+</location>
+
+<location>
+<gear clockwise="true"/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<floor/>
+<walls north="false" east="true" south="false" west="false"/>
+</location>
+
+<location>
+<floor/>
+<walls north="true" east="false" south="false" west="true"/>
+</location>
+
+<location>
+<floor/>
+<walls north="false" east="true" south="false" west="false"/>
+</location>
+
+<location>
+<belt direction="West"/>
+</location>
+
+<location>
+<belt direction="West"/>
+</location>
+
+<location>
+<belt direction="West"/>
+</location>
+
+<location>
+<belt direction="West"/>
+</location>
+
+<location>
+<belt direction="West"/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<belt direction="South"/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<belt direction="East"/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<floor/>
+<crusher phase1="2" phase2="4"/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<pit/>
+</location>
+
+<location>
+<belt direction="North"/>
+<pusher direction="West" phase1="2" phase2="4" phase3="5"/>
+<walls north="false" east="true" south="false" west="false"/>
+</location>
+
+<location>
+<floor/>
+<walls north="false" east="false" south="false" west="true"/>
+</location>
+
+<location>
+<belt direction="South"/>
+</location>
+
+<location>
+<floor/>
+<pusher direction="West" phase1="1" phase2="3" phase3="5"/>
+<walls north="false" east="true" south="false" west="false"/>
+</location>
+
+<location>
+<belt direction="North"/>
+<walls north="false" east="false" south="false" west="true"/>
+</location>
+
+<location>
+<belt direction="East"/>
+</location>
+
+<location>
+<belt direction="South"/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<belt direction="East"/>
+</location>
+
+<location>
+<belt direction="North"/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<belt direction="East"/>
+</location>
+
+<location>
+<belt direction="East"/>
+</location>
+
+<location>
+<belt direction="North"/>
+</location>
+
+<location>
+<floor/>
+<walls north="false" east="false" south="false" west="true"/>
+</location>
+
+<location>
+<belt direction="South"/>
+</location>
+
+<location>
+<floor/>
+<walls north="false" east="true" south="false" west="false"/>
+</location>
+
+<location>
+<belt direction="North"/>
+<crusher phase1="1" phase2="3"/>
+<walls north="false" east="false" south="false" west="true"/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<floor/>
+<walls north="false" east="true" south="false" west="false"/>
+</location>
+
+<location>
+<floor/>
+<walls north="false" east="false" south="false" west="true"/>
+</location>
+
+<location>
+<floor/>
+<walls north="false" east="true" south="false" west="false"/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<belt direction="East"/>
+<walls north="false" east="false" south="true" west="false"/>
+</location>
+
+<location>
+<belt direction="South"/>
+</location>
+
+<location>
+<belt direction="North"/>
+</location>
+
+<location>
+<goal/>
+<walls north="false" east="false" south="true" west="false"/>
+</location>
+
+<location>
+<belt direction="West"/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+<location>
+<floor/>
+<walls north="false" east="false" south="true" west="false"/>
+</location>
+
+<location>
+<floor/>
+</location>
+
+</factory>
