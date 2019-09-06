@@ -9,6 +9,11 @@ Design principle will be as much as abstraction, interface and inheritance.
 It's already packaged in netbeans project, assignment4server is the last version
 This game is a car race game, the player number can be choose 1-4 and each player has 7 cards to control their car, if the car hits or drop off the board, it will respone.
 
-Most of the source is based on instructor Michael Winter(mwinter@brocku.ca)
+Most of the source is based on instructor Michael Winter(mwinter@brocku.ca).
 
+# Sample
 <div><img src="https://github.com/Kasim-An/cosc-3p91/blob/master/sample1.jpg"></div>
+Choose numbers of player.
+
+<div><img src="https://github.com/Kasim-An/cosc-3p91/blob/master/sample2.jpg"></div>
+User's version and playboard.
